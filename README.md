@@ -11,3 +11,6 @@ resource "aws_instance" "ec2" {
  ami           = "ami-0989fb15ce71ba39e"
  instance_type = "t3.micro"
 }
+git add .
+git commit -m "initial commit"
+git push origin master
